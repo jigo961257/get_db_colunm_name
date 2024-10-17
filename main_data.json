@@ -1,0 +1,623 @@
+[
+    {
+        "No": "1",
+        "Parameter": "xh",
+        "Name": "Vehicle Serial Number",
+        "Type": "char",
+        "Length": "14",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "2",
+        "Parameter": "hpzl",
+        "Name": "Plate Type",
+        "Type": "char",
+        "Length": "2",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "3",
+        "Parameter": "hphm",
+        "Name": "Plate Number",
+        "Type": "varchar2",
+        "Length": "15",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "4",
+        "Parameter": "clpp1",
+        "Name": "Vehicle Brand",
+        "Type": "varchar2",
+        "Length": "32",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "5",
+        "Parameter": "clxh",
+        "Name": "Vehicle Model",
+        "Type": "varchar2",
+        "Length": "32",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "6",
+        "Parameter": "clpp2",
+        "Name": "English brand",
+        "Type": "varchar2",
+        "Length": "32",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "7",
+        "Parameter": "gcjk",
+        "Name": "Domestic/imported",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "8",
+        "Parameter": "zzg",
+        "Name": "Country of manufacture",
+        "Type": "char",
+        "Length": "3",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "9",
+        "Parameter": "zzcmc",
+        "Name": "Manufacturer Name",
+        "Type": "varchar2",
+        "Length": "64",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "10",
+        "Parameter": "clsbdh",
+        "Name": "Vehicle ID Code",
+        "Type": "varchar2",
+        "Length": "25",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "11",
+        "Parameter": "fdjh",
+        "Name": "Engine/E-motor Code",
+        "Type": "varchar2",
+        "Length": "30",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "12",
+        "Parameter": "dpxh",
+        "Name": "Chassis Model",
+        "Type": "varchar2",
+        "Length": "20",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "13",
+        "Parameter": "cllx",
+        "Name": "Vehicle Type",
+        "Type": "char",
+        "Length": "3",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "14",
+        "Parameter": "csys",
+        "Name": "Body Color",
+        "Type": "varchar2",
+        "Length": "5",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "15",
+        "Parameter": "syxz",
+        "Name": "Use Type",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "16",
+        "Parameter": "sfzmhm",
+        "Name": "ID number",
+        "Type": "varchar2",
+        "Length": "18",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "17",
+        "Parameter": "sfzmmc",
+        "Name": "Identity certificate name",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "18",
+        "Parameter": "syr",
+        "Name": "Vehicle Owner",
+        "Type": "varchar2",
+        "Length": "128",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "19",
+        "Parameter": "ccdjrq",
+        "Name": "Initial Regis. Date",
+        "Type": "date",
+        "Length": "7",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "20",
+        "Parameter": "djrq",
+        "Name": "Latest Inspection Date",
+        "Type": "date",
+        "Length": "7",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "21",
+        "Parameter": "yxqz",
+        "Name": "Inspection Valid to",
+        "Type": "date",
+        "Length": "7",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "22",
+        "Parameter": "qzbfqz",
+        "Name": "mandatory scrapping period",
+        "Type": "date",
+        "Length": "7",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "23",
+        "Parameter": "fzjg",
+        "Name": "licence issuing authority",
+        "Type": "varchar2",
+        "Length": "10",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "24",
+        "Parameter": "glbm",
+        "Name": "Management department",
+        "Type": "varchar2",
+        "Length": "12",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "25",
+        "Parameter": "bxzzrq",
+        "Name": "Insurance Valid to",
+        "Type": "date",
+        "Length": "7",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "26",
+        "Parameter": "zt",
+        "Name": "Motor vehicle status",
+        "Type": "varchar2",
+        "Length": "6",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "27",
+        "Parameter": "dybj",
+        "Name": "Mortgage Mark",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": "- Unmortgaged 1- Mortgaged"
+      },
+      {
+        "No": "28",
+        "Parameter": "fdjxh",
+        "Name": "Engine model",
+        "Type": "varchar2",
+        "Length": "64",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "29",
+        "Parameter": "rlzl",
+        "Name": "Fuel Type",
+        "Type": "varchar2",
+        "Length": "3",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "30",
+        "Parameter": "pl",
+        "Name": "Displacement",
+        "Type": "number",
+        "Length": "6",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "31",
+        "Parameter": "gl",
+        "Name": "Power",
+        "Type": "number",
+        "Length": "5,1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "32",
+        "Parameter": "zxxs",
+        "Name": "Steering type",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "33",
+        "Parameter": "cwkc",
+        "Name": "External Body Length",
+        "Type": "number",
+        "Length": "5",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "34",
+        "Parameter": "cwkk",
+        "Name": "External Body Width",
+        "Type": "number",
+        "Length": "4",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "35",
+        "Parameter": "cwkg",
+        "Name": "External Body Height",
+        "Type": "number",
+        "Length": "4",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "36",
+        "Parameter": "hxnbcd",
+        "Name": "Internal length of the cargo box",
+        "Type": "number",
+        "Length": "5",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "37",
+        "Parameter": "hxnbkd",
+        "Name": "Internal width of the cargo box",
+        "Type": "number",
+        "Length": "4",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "38",
+        "Parameter": "hxnbgd",
+        "Name": "Internal height of the cargo box",
+        "Type": "number",
+        "Length": "4",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "39",
+        "Parameter": "gbthps",
+        "Name": "Number of steel plate springs",
+        "Type": "number",
+        "Length": "3",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "40",
+        "Parameter": "zs",
+        "Name": "Axle Quantity",
+        "Type": "number",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "41",
+        "Parameter": "zj",
+        "Name": "Axle Distance",
+        "Type": "number",
+        "Length": "5",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "42",
+        "Parameter": "qlj",
+        "Name": "Front Wheel Distance",
+        "Type": "number",
+        "Length": "4",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "43",
+        "Parameter": "hlj",
+        "Name": "Rear Wheel Distance",
+        "Type": "number",
+        "Length": "4",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "44",
+        "Parameter": "ltgg",
+        "Name": "Tire Size",
+        "Type": "varchar2",
+        "Length": "64",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "45",
+        "Parameter": "lts",
+        "Name": "Number of tires",
+        "Type": "number",
+        "Length": "2",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "46",
+        "Parameter": "zzl",
+        "Name": "Total Weight with Loading Capacity",
+        "Type": "number",
+        "Length": "8",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "47",
+        "Parameter": "zbzl",
+        "Name": "Weight without load",
+        "Type": "number",
+        "Length": "8",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "48",
+        "Parameter": "hdzzl",
+        "Name": "Approved Load",
+        "Type": "number",
+        "Length": "8",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "49",
+        "Parameter": "hdzk",
+        "Name": "Passenger capacity",
+        "Type": "number",
+        "Length": "3",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "50",
+        "Parameter": "zqyzl",
+        "Name": "Traction Mass",
+        "Type": "number",
+        "Length": "8",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "51",
+        "Parameter": "qpzk",
+        "Name": "Passenger capacity in the front row of the cab",
+        "Type": "number",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "52",
+        "Parameter": "hpzk",
+        "Name": "Passenger capacity in the rear row of the cab",
+        "Type": "number",
+        "Length": "2",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "53",
+        "Parameter": "hbdbqk",
+        "Name": "Environmental compliance status",
+        "Type": "varchar2",
+        "Length": "128",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "54",
+        "Parameter": "ccrq",
+        "Name": "Production Date",
+        "Type": "date",
+        "Length": "7",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "55",
+        "Parameter": "clyt",
+        "Name": "Vehicle Use",
+        "Type": "char",
+        "Length": "2",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "56",
+        "Parameter": "ytsx",
+        "Name": "Use Property",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "57",
+        "Parameter": "xszbh",
+        "Name": "Driver's license chip number",
+        "Type": "varchar2",
+        "Length": "20",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "58",
+        "Parameter": "jyhgbzbh",
+        "Name": "Inspection qualified mark",
+        "Type": "varchar2",
+        "Length": "20",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "59",
+        "Parameter": "xzqh",
+        "Name": "Manage jurisdictional areas",
+        "Type": "varchar2",
+        "Length": "10",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "59",
+        "Parameter": "xzqh",
+        "Name": "Manage jurisdictional areas",
+        "Type": "varchar2",
+        "Length": "10",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "60",
+        "Parameter": "zsxzqh",
+        "Name": "Administrative residential address",
+        "Type": "varchar2",
+        "Length": "10",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "61",
+        "Parameter": "zzxzqh",
+        "Name": "Administrative division of contact address",
+        "Type": "varchar2",
+        "Length": "10",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "62",
+        "Parameter": "zsdz",
+        "Name": "Residence Address",
+        "Type": "varchar2",
+        "Length": "200",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "63",
+        "Parameter": "sgcssbwqk",
+        "Name": "Situation of damaged parts of the accident vehicle",
+        "Type": "varchar2",
+        "Length": "4000",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "64",
+        "Parameter": "sfmj",
+        "Name": "exempt from inspection",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": "1-exempt from inspection 2-Not exempt from inspection"
+      },
+      {
+        "No": "65",
+        "Parameter": "bmjyy",
+        "Name": "Reasons for not being exempted from inspection",
+        "Type": "varchar2",
+        "Length": "4000",
+        "Whether Necessary": "",
+        "Remark": ""
+      },
+      {
+        "No": "66",
+        "Parameter": "sfxny",
+        "Name": "Is it a new energy vehicle",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": "1-Y 2-N"
+      },
+      {
+        "No": "67",
+        "Parameter": "xnyzl",
+        "Name": "Types of new energy vehicles",
+        "Type": "char",
+        "Length": "1",
+        "Whether Necessary": "",
+        "Remark": "A-pure electric B-fuel cell C-plug-in hybrid power"
+      },
+      {
+        "No": "68",
+        "Parameter": "bz",
+        "Name": "Remark",
+        "Type": "varchar2",
+        "Length": "4000",
+        "Whether Necessary": "",
+        "Remark": ""
+      }
+]
